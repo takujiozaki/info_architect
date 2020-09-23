@@ -11,3 +11,27 @@ https://officetkj.sakura.ne.jp/info_architect/index.html
 
 ## PDF
 授業で紹介した資料をまとめています。  
+
+## 進捗
+### 1st
+講座オリエン・Webの仕組み
+### 2nd
+HTMLの基礎(基本構造・基本のタグ)  
+CSSの基礎(記述方法、記述場所、CSSボックス)  
+製作例 センターレイアウト  
+### 3rd
+テーブルタグ  
+ハイパーリンク  
+### 4th
+FTP 
+セレクタ 
+### 5th
+複数列レイアウト  
+COLOR  
+### 6th
+レスポンシブデザイン  
+### 7th  
+JavaScript基礎 
+jQuery  
+### 8th - 10th
+制作
