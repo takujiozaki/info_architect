@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 373px;
+    background-image: url('../images/main_visual.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+header h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color:#222;
+    font-size: xx-large;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    padding:5px;
+}
+
+div.wrap{
+    width:80%;
+    margin: 0 auto;
+    
+}
+
+div.main{
+    width: 60%;
+    float: left;
+}
+
+div.sidebar{
+    width: 40%;
+    padding: 10px;
+    float: left;
+}
+
+div.footer{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+}
+
+/*----*/
+h1{
+    font-size: xx-large;
+    color:#222;
+}
+
+div.main h2{
+    font-size: x-large;
+    border-left: solid 10px #0000FF;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+/*--section--*/
+div.main section h1{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+div.main section{
+    padding: 5px;
+    margin-bottom: 2em;
+}
+
+div.main section .item_image{
+    text-align: center;
+}
+
+div.main section p{
+    padding: 10px;
+    text-align: right;
+}
+
+/*--sidebar--*/
+div.sidebar h2{
+    padding: 1em;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+div.sidebar ul{
+    list-style-type: square;
+    margin-left: 20px;
+}
