@@ -4,17 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form sample</title>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <h1>form sample</h1>
     <form action="" method="post">
+        <p>Name</p>
         <div class="inputstyle">
             <label for="yourname">名前</label>
             <input type="text" name="name" id="yourname">   
         </div>
+        <p>Mail</p>
         <div class="inputstyle">
             <label for="yourmail">メールアドレス</label>
             <input type="email" name="email" id="yourmail">
+        </div>
+        <p>Gender</p>
+        <div class="choicestyle">
+            <input type="radio" name="gender" id="gender_f">
+            <label for="gender_f">女性</label>
+        </div>
+        <div class="choicestyle">
+            <input type="radio" name="gender" id="gender_m">
+            <label for="gender_m">男性</label>
+        </div>
+        <p>Study</p>
+        <div class="choicestyle">
+            <input type="checkbox" name="graphic" id="graphic">
+            <label for="graphic">グラフィック</label>
+        </div>
+        <div class="choicestyle">
+            <input type="checkbox" name="illustration" id="illustration">
+            <label for="illustration">イラスト</label>
+        </div>
+        <div class="choicestyle">
+            <input type="checkbox" name="Web" id="Web">
+            <label for="Web">Web</label>
+        </div>
+        <div class="textareastyle">
+            <label for="body">内容</label>
+            <textarea name="body" id="body" cols="30" rows="10"></textarea>
         </div>
         <input type="submit" value="送信">
     </form>

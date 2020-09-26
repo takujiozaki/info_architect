@@ -1,0 +1,17 @@
+div.textareastyle label{
+    display: block;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+div.textareastyle textarea{
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+div.inputstyle input, div.choicestyle input{
+    margin: .5em;
+}
