@@ -33,6 +33,10 @@ COLOR
 レスポンシブデザイン  
 ### 7th  
 JavaScript基礎 
-jQuery  
+jQuery
+#### 選択肢が2通り  
+HTML_4
+#### 選択肢が3通り以上
+HTML_5
 ### 8th - 10th
 制作
