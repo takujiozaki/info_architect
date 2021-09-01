@@ -16,7 +16,8 @@
 <body>
 <div class="container">
     <h1>HTTPの基本を理解する</h1>
-    <p>このWebページはPOSTでリクエストされました。送信された値：<?= $name ?></p>
+    <p>このWebページはPOSTでリクエストされました。</p>
+    <p>こんにちは<?= $name ?>さん</p>
     <p><a href="./index.html">戻る</a></p>
 </div>
 

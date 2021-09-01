@@ -1,5 +1,6 @@
 <?php
-    $current_time = date( "Y/m/d H:i:s" );
+$yourname = (isset($_GET['name'])?$_GET['name']:"名無し");
+
 ?>
 <!doctype html>
 <html lang="ja">
@@ -15,8 +16,9 @@
 </head>
 <body>
 <div class="container">
-    <h1>PHPによる現在時間の取得</h1>
-    <div id="current" class="alert alert-primary"><?=$current_time ?></div>
+    <h1>HTTPの基本を理解する</h1>
+    <p>このWebページはGETでリクエストされました</p>
+    <p>こんにちは<?=$yourname?>さん</p>
     <p><a href="./index.html">戻る</a></p>
 </div>
 

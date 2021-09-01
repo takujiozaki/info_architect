@@ -13,14 +13,20 @@
 <body>
 <div class="container">
     <h1>HTTPの基本を理解する</h1>
+    <h2>静的なWEBサイト、動的なWEBサイト</h2>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="./static.html">静的なWEBサイト</a></li>
+        <li class="list-group-item"><a href="./dynamic.php">動的なWEBサイト(サーバーサイド)</a></li>
+    </ul>
     <h2>POSTとGET</h2>
     <ul class="list-group">
-        <li class="list-group-item"><a href="./get_request.html">GETリクエスト</a></li>
+        <li class="list-group-item"><a href="./get_request.php?name=sozosha">GETリクエスト</a></li>
     </ul>
     <div class="border mt-2 p-3">
+        POSTリクエスト
         <form action="./post_request.php" method="POST">
-            <label for="">POSTリクエスト</label>
-            <input type="text" name="name" id="" class="form-control">
+            <label for="yourname">あなたのお名前</label>
+            <input type="text" name="name" id="yourname" class="form-control">
             <button type="submit" class="btn btn-primary">送信</button>
         </form>
     </div>

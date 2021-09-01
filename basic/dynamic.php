@@ -1,5 +1,7 @@
 <?php
-    $current_time = date( "Y/m/d H:i:s" );
+
+$images = array("c125.jpg","ct125.jpg","vespa.jpg");
+$image = $images[rand(0,count($images)-1)];
 ?>
 <!doctype html>
 <html lang="ja">
@@ -11,16 +13,23 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>HTTPの基礎</title>
+    <title>静的なWebページ</title>
+    <style>
+        #imgbox{
+            height: 500px;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
-    <h1>PHPによる現在時間の取得</h1>
-    <div id="current" class="alert alert-primary"><?=$current_time ?></div>
+    <h1>動的なWebページ</h1>
+    <p class="alert alert-info">動的なWebページはアクセスする度に内容に変化をつけることができる</p>
+    <p id="imgbox" class="text-center">
+        <img src="./images/<?=$image?>" alt="">
+    </p>
+    <p><a href="dynamic.php">更新</a></p>
     <p><a href="./index.html">戻る</a></p>
 </div>
-
-
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
