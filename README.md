@@ -12,32 +12,33 @@ https://officetkj.sakura.ne.jp/info_architect/index.html
 ## PDF
 授業で紹介した資料をまとめています。  
 
-## 進捗
+## 授業予定
+
 ### 1st
 講座オリエン・Webの仕組み
+
 ### 2nd
 HTMLの基礎(基本構造・基本のタグ)  
-CSSの基礎(記述方法、記述場所、CSSボックス)  
-製作例 センターレイアウト  
+CSSの基礎(記述方法、記述場所、CSSボックスデザイン)  
+検証：Webサイトはファイルの塊
+
 ### 3rd
-テーブルタグ  
-ハイパーリンク  
+製作例 センターレイアウト
+COLOR・単位 
+
 ### 4th
-FTP 
-セレクタ 
-### 5th
-複数列レイアウト  
-COLOR  
-単位  
+製作例　複数列レイアウトとレスポンシブデザイン
+FTP
+
+### 5th 
+JavaScript(jQuery)の基礎
+
 ### 6th
-レスポンシブデザイン  
-### 7th  
-JavaScript基礎 
-jQuery
-#### 選択肢が2通り  
-HTML_4
-#### 選択肢が3通り以上
-HTML_5(クリック更新)  
-HTML_5_b(自動更新)  
-### 8th - 10th
-制作
+CMSの基礎
+WordPress体験
+
+### 7-8th  
+課題　Webサイト企画
+
+### 9-10th
+課題　Webサイト制作
