@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style2.css">
+    <title>Form</title>
+</head>
+<body>
+    <form method="get" id="comment_form" name="comment_form" action="./">
+        <dl>
+          <dt><label for="name">テキスト</label></dt>
+          <dd><input type="text" id="name" name="name" size="40"/></dd>
+          <dt>ラジオ</label></dt>
+          <dd>
+            <ul>
+              <li><input type="radio" id="radio1" name="radio" size="40"/><label for="radio1">ラジオ1</label></li>
+              <li><input type="radio" id="radio2" name="radio" size="40"/><label for="radio2">ラジオ2</label></li>
+            </ul>
+          </dd>
+          <dt><label for="color">プルダウン</label></dt>
+          <dd>
+            <select id="color" name="color">
+              <option value="Black" selected="selected">Black</option>
+              <option value="LimeGreen">LimeGreen</option>
+              <option value="SeaGreen">SeaGreen</option>
+            </select>
+          </dd>
+          <dt>チェックボックス</dt>
+          <dd>
+            <ul>
+              <li><input type="checkbox" id="checkbox1" name="checkbox" size="40"/><label for="checkbox1">チェックボックス1</label>
+              <li><input type="checkbox" id="checkbox2" name="checkbox" size="40"/><label for="checkbox2">チェックボックス2</label>
+            </ul>
+          </dd>
+          <dt><label for="comment">コメント</label></dt>
+          <dd><textarea id="comment" name="comment" cols="40" rows="4"></textarea></dd>
+          <dt><label for="password">パスワード</label></dt>
+          <dd><input type="password" id="password" name="password" size="40"/></dd>
+        </dl>
+        <ul>
+          <li><input type="submit" value="送信" /></li>
+          <li><input type="reset" value="リセット" /></li>
+        </ul>
+      </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+dl,dt,dd,ul,li{
+    margin:0px;
+    padding:0px;
+  }
+   
+  dl{
+    width: 450px;
+    
+  }
+   
+  dt{
+    display:list-item;
+    margin-top:20px;
+    margin-left:10px;
+    list-style-type: none;
+  }
+   
+   
+  dd{
+    margin-left:20px;
+    padding: 10px 10px 10px 10px;
+    border-style: double;
+    padding: 5px;
+    background-color: #DCDCED;
+  }
+   
+  ul{
+    display:flex;
+    list-style-type: none;
+  }

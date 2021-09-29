@@ -1,0 +1,21 @@
+div.wrap{
+    width: 80%;
+    margin: 0 auto;
+}
+
+table{
+    width: 100%;
+}
+
+table tr th{
+    width: 30%;
+    padding: 0.5em;
+    background-color: darkcyan;
+    color: #fff;
+}
+
+table tr td{
+    width: 70%;
+    padding: 0.5em;
+    background-color:cyan;
+}

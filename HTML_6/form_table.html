@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Table</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <h1>Form</h1>
+        <form action="" method="post">
+            <table>
+                <tr>
+                    <th><label for="sampleA">一行テキスト</label></th>
+                    <td><input type="text" name="sampleA" id="sampleA"></td>
+                </tr>
+                <tr>
+                    <th>ラジオボタン</th>
+                    <td>
+                        <input type="radio" name="sampleB" id="sampleB_1" value="1"><label for="sampleB_1">選択肢1</label>
+                        <input type="radio" name="sampleB" id="sampleB_2" value="2"><label for="sampleB_2">選択肢2</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>チェックボックス</th>
+                    <td>
+                        <input type="checkbox" name="sampleC" id="sampleC_1" value="1"><label for="sampleC_1">A</label>
+                        <input type="checkbox" name="sampleC" id="sampleC_2" value="2"><label for="sampleC_2">B</label>
+                        <input type="checkbox" name="sampleC" id="sampleC_3" value="3"><label for="sampleC_3">C</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>ドロップダウンメニュー</th>
+                    <td><select name="sampleD" id="sampleD">
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <th><label for="sampleE">複数行テキスト</label></th>
+                    <td>
+                        <textarea name="sampleE" id="sampleE" cols="30" rows="10">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>ボタン</th>
+                    <td><button type="submit">送信</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    
+</body>
+</html>
