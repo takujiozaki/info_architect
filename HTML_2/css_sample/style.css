@@ -40,6 +40,10 @@ div.main{
     float: left;
 }
 
+div.item_image>img{
+    max-width: 100%;
+}
+
 div.sidebar{
     width: 40%;
     padding: 10px;
