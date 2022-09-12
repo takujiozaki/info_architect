@@ -1,0 +1,29 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <style>
+    div.slider>div{
+        background-color: #999;
+    }
+    div.slider div img{
+        margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="slider">
+    <div><img src="./images/image1.png" alt=""></div>
+    <div><img src="./images/image2.png" alt=""></div>
+    <div><img src="./images/image3.png" alt=""></div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
+</body>
+</html>
