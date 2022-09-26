@@ -7,6 +7,7 @@ if($_SERVER['REQUEST_METHOD'] == "GET"){
 $name = htmlspecialchars($_POST['name']);
 $email = htmlspecialchars($_POST['email']);
 $gender = htmlspecialchars($_POST['gender']);
+$grade = htmlspecialchars($_POST['grade']);
 $studies = "";
 if(isset($_POST['study']) && is_array($_POST['study'])){
     foreach($_POST['study'] as $study){
@@ -48,6 +49,10 @@ $body = htmlspecialchars($_POST['body']);
             <tr>
                 <th>Mail</th>
                 <td><?=$email?></td>
+            </tr>
+            <tr>
+                <th>学年</th>
+                <td><?=$grade?></td>
             </tr>
             <tr>
                 <th>性別</th>

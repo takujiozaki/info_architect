@@ -7,45 +7,70 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-    <h1>form sample</h1>
-    <form action="post.php" method="post">
-        <p>Name</p>
-        <div class="inputstyle">
-            <label for="yourname">名前</label>
-            <input type="text" name="name" id="yourname">   
-        </div>
-        <p>Mail</p>
-        <div class="inputstyle">
-            <label for="yourmail">メールアドレス</label>
-            <input type="email" name="email" id="yourmail">
-        </div>
-        <p>Gender</p>
-        <div class="choicestyle">
-            <input type="radio" name="gender" id="gender_f" value="女性">
-            <label for="gender_f">女性</label>
-        </div>
-        <div class="choicestyle">
-            <input type="radio" name="gender" id="gender_m" value="男性">
-            <label for="gender_m">男性</label>
-        </div>
-        <p>Study</p>
-        <div class="choicestyle">
-            <input type="checkbox" name="study[]" id="graphic" value="graphic">
-            <label for="graphic">グラフィック</label>
-        </div>
-        <div class="choicestyle">
-            <input type="checkbox" name="study[]" id="illustration" value="illustration">
-            <label for="illustration">イラスト</label>
-        </div>
-        <div class="choicestyle">
-            <input type="checkbox" name="study[]" id="Web" value="Web">
-            <label for="Web">Web</label>
-        </div>
-        <div class="textareastyle">
-            <label for="body">内容</label>
-            <textarea name="body" id="body" cols="30" rows="10"></textarea>
-        </div>
-        <input type="submit" value="送信">
-    </form>
+    <div class="container">
+        <h1>form sample</h1>
+        <form action="post.php" method="post">
+            <dl>
+                <dt>Name</dt>
+                <dd>
+                    <label for="yourname">名前</label>
+                    <input type="text" name="name" id="yourname">
+                </dd>
+            </dl>
+            <dl>
+                <dt></dt>
+                <dl></dl>
+            </dl>
+            <dl>
+                <dt>Mail</dt>
+                <dl>
+                    <label for="yourmail">メールアドレス</label>
+                    <input type="email" name="email" id="yourmail">
+                </dl>
+            </dl>
+            <dl>
+                <dt>Grade</dt>
+                <dl>
+                    <label for="grade">学年</label> 
+                    <select name="grade" id="">
+                        <option value="1">1年生</option>
+                        <option value="2">2年生</option>
+                    </select>
+                </dl>
+            </dl>
+            <dl>
+                <dt>Gender</dt>
+                <dl>
+                    <input type="radio" name="gender" id="gender_f" value="女性">
+                    <label for="gender_f">女性</label>            
+                    <input type="radio" name="gender" id="gender_m" value="男性">
+                    <label for="gender_m">男性</label>
+                </dl>
+            </dl>
+            <dl>
+                <dt>Study</dt>
+                <dd>
+                    <input type="checkbox" name="study[]" id="graphic" value="graphic">
+                    <label for="graphic">グラフィック</label>
+            
+                
+                    <input type="checkbox" name="study[]" id="illustration" value="illustration">
+                    <label for="illustration">イラスト</label>
+                
+                
+                    <input type="checkbox" name="study[]" id="Web" value="Web">
+                    <label for="Web">Web</label>
+                </dd>
+            </dl>
+            <dl>
+                <dt>Study</dt>
+                <dd>
+                    <label for="body">内容</label>
+                    <textarea name="body" id="body" cols="30" rows="10"></textarea>
+                </dd>
+            </dl>
+            <button type="submit">送信</button>
+        </form>
+    </div>
 </body>
 </html>

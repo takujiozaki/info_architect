@@ -1,3 +1,8 @@
+div.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
 div.textareastyle label{
     display: block;
     margin-top: 10px;
